@@ -65,7 +65,7 @@
 	&kp QMARK   &kp PIPE &kp RBKT &kp RBRC &kp C_AL_NEXT_TASK &kp C_AL_PREV_TASK                                                                                  &kp K_CALC &kp C_AL_NEWS  &kp C_AL_DATABASE &kp C_AL_TASK_MANAGER &kp C_AL_AV_CAPTURE_PLAYBACK &kp C_AL_SCREEN_SAVER
 	&kp C_AL_SELECT_TASK   &kp C_AL_MY_COMPUTER &kp C_AL_DOCS &kp C_AL_FILES &kp C_AL_WWW &kp K_WWW                                                                       &kp C_AL_KEYBOARD_LAYOUT &kp C_AL_CONTROL_PANEL  &kp C_AL_HELP     &kp K_HELP   &kp C_AL_CCC &kp C_AL_TIPS
 	&kp C_AL_EMAIL &kp C_AL_INSTANT_MESSAGING &kp C_AL_CHAT &kp C_AL_CONTACTS &kp C_AL_CAL &kp C_AL_IMAGES  &kp LSHFT &kp C_AL_MUSIC         &kp TILDE &kp LSHFT &kp DQT &kp COLON &kp PIPE2 &kp NON_US_BSLH &kp UNDER &kp MINUS
-	                                             &kp C_AL_MOVIES &kp C_AL_TEXT_EDITOR &kp C_AL_WORD &kp C_SHEET &kp C_AL_GRAPHICS_EDITOR                      &kp LBRC  &kp NON_US_HASH  &kp GT &kp LT &tog 2
+	                                             &kp C_AL_MOVIES &kp C_AL_TEXT_EDITOR &kp C_AL_WORD &kp C_AL_SHEET &kp C_AL_GRAPHICS_EDITOR                      &kp LBRC  &kp NON_US_HASH  &kp GT &kp LT &tog 2
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
