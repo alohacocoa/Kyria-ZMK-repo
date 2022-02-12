@@ -10,6 +10,7 @@
 #define ASET 0
 #define TEST 1
 #define TEST2 2
+#define TEST3 3
 
 / {
 	keymap {
@@ -25,7 +26,7 @@
 	&kp TAB   &kp Q &kp W &kp J &kp F &kp G                                                &kp Y &kp P  &kp U     &kp L   &kp SEMI    &kp LEFT_BRACKET
 	&sk LSHFT   &kp A &kp S &kp E &kp T &kp D                                                &kp H &kp N  &kp I     &kp O   &kp R &kp SQT
 	&kp LCTRL &kp Z &kp X &kp C &kp V &kp B &kp LSHFT &kp PSCRN        &kp CAPS &kp LSHFT &kp K &kp M  &kp COMMA &kp DOT &kp FSLH &kp BSLH
-	                 &kp LGUI &kp LALT &kp ENTER &kp SPACE &kp ESC        &kp LGUI  &kp BSPC  &kp MINUS &kp C_PLAY_PAUSE &tog 2
+	                 &kp LGUI &kp LALT &kp ENTER &kp SPACE &kp ESC        &kp LGUI  &kp BSPC  &kp MINUS &kp C_PLAY_PAUSE &tog 3
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -66,6 +67,26 @@
 	&kp C_AL_SELECT_TASK   &kp C_AL_MY_COMPUTER &kp C_AL_DOCS &kp C_AL_FILES &kp C_AL_WWW &kp K_WWW                                                                       &kp C_AL_KEYBOARD_LAYOUT &kp C_AL_CONTROL_PANEL  &kp C_AL_HELP     &kp K_HELP   &kp C_AL_CCC &kp C_AL_TIPS
 	&kp C_AL_EMAIL &kp C_AL_INSTANT_MESSAGING &kp C_AL_CHAT &kp C_AL_CONTACTS &kp C_AL_CAL &kp C_AL_IMAGES  &kp LSHFT &kp C_AL_MUSIC         &kp TILDE &kp LSHFT &kp DQT &kp COLON &kp PIPE2 &kp NON_US_BSLH &kp UNDER &kp MINUS
 	                                             &kp C_AL_MOVIES &kp C_AL_TEXT_EDITOR &kp C_AL_WORD &kp C_AL_SHEET &kp C_AL_GRAPHICS_EDITOR                      &kp LBRC  &kp NON_US_HASH  &kp GT &kp LT &tog 2
+			>;
+
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+		};
+	};
+	
+	keymap {
+		compatible = "zmk,keymap";
+
+		test_layer3 {
+// ------------------------------------------------------------------------------------------------------------------------------
+// |  ESC  |  Q  |  W  |  E   |  R   |  T   |                                          |  Y   |  U    |  I    |  O   |   P   |   \  |
+// |  TAB  |  A  |  S  |  D   |  F   |  G   |                                          |  H   |  J    |  K    |  L   |   ;   |   '  |
+// | SHIFT |  Z  |  X  |  C   |  V   |  B   | L SHIFT | L SHIFT |  | L SHIFT | L SHIFT |  N   |  M    |  ,    |  .   |   /   | CTRL |
+//                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
+			bindings = <
+	&kp C_FAST_FORWARD   &kp C_REWIND &kp C_MENU &kp C_MENU_DOWN &kp C_MENU_INC &kp C_MEDIA_HOME                                                                                  &kp K_SCROLL_DOWN &kp C_AC_EDIT  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS &kp C_POWER &kp K_POWER &kp C_AL_LOCK
+	&kp C_MEDIA_TV   &kp C_MEDIA_WWW &kp C_MEDIA_COMPUTER &kp C_QUIT &kp K_MENU &kp C_AC_PROPS                                                                       &kp C_AL_KEYBOARD_LAYOUT &kp C_AL_CONTROL_PANEL  &kp C_AL_HELP     &kp K_HELP   &kp C_AL_CCC &kp K_LOCK
+	&kp C_AC_REFRESH &kp K_REFRESH &kp C_AC_STOP &kp K_STOP &kp C_AC_FORWARD &kp K_FORWARD  &kp C_AC_NEW &kp C_AC_BOOKMARKS         &kp TILDE &kp LSHFT &kp DQT &kp COLON &kp PIPE2 &kp NON_US_BSLH &kp UNDER &kp MINUS
+	                                             &kp C_AC_HOME &kp C_AC_SAVE &kp C_AC_SEARCH &kp C_AC_ZOOM_IN &kp C_AC_SCROLL_DOWN                      &kp LBRC  &kp NON_US_HASH  &kp GT &kp LT &tog 3
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
