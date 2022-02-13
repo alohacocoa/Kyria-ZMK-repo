@@ -37,7 +37,7 @@
 
 			bindings = <
 			&kp LC(Y) &kp LC(A) &kp HOME &kp UP &kp END &kp LC(X) 				&kp GRAVE &kp N7 &kp N8 &kp N9 &kp MINUS &kp EQUAL
-			&kp LGUI &kp DEL &kp LEFT &kp BSPC &kp RIGHT &kp LC(V) 				&kp N0 &kp N4 &kp N5 &kp N6 &kp LEFT_BRACKET &kp RIGHT_BRACKET 
+			&kp LGUI &kp DEL &kp LEFT &kp BSPC &kp RIGHT &kp LC(V) 				&kp N0 &mt LCTRL N4 &mt LSHFT N5 &mt LALT N6 &kp LEFT_BRACKET &kp RIGHT_BRACKET 
 			&kp F2 &kp K_CONTEXT_MENU &kp ENTER &kp DOWN &kp TAB &kp LC(C) &none &none 		&none &none &kp LC(W) &kp N1 &kp N2 &kp N3 &kp FSLH &kp NON_US_HASH  
 				&bootloader &reset &none &none &none			&mt RALT ESC &mt LSHFT N0 &kp LA(SPACE) &bootloader &reset 
 			
