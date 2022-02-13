@@ -22,7 +22,7 @@
 			bindings = <	
 	&kp TAB   &kp Q &kp W &kp J &kp F &kp G                                                                    &kp Y &kp P  &kp U     &kp L   &kp SEMI    &kp LEFT_BRACKET
 	&sk LSHFT   &kp A &kp S &lt MEDIAFN E &kp T &kp D                                                          &kp H &kp N  &kp I     &kp O   &kp R &kp SQT
-	&kp LCTRL &kp Z &kp X &kp C &kp V &kp B &kp LSHFT &kp PSCRN                             &kp CAPS &kp LSHFT &kp K &kp M  &kp COMMA &kp DOT &kp FSLH &kp NON_US_BSLH
+	&kp LCTRL &kp Z &kp X &kp C &kp V &kp B &none &kp PSCRN                             &kp CAPS &none &kp K &kp M  &kp COMMA &kp DOT &kp FSLH &kp NON_US_BSLH
 	                 &kp LGUI &kp LALT &mt LCTRL ENTER &lt NAVNUM SPACE &lt APPS ESC        &sl 2 &lt NAVNUM BSPC &lt NAVNUM AT &kp C_PLAY_PAUSE &kp LC(LA(Q))
 			>;
 
@@ -36,10 +36,10 @@
 		navnum_layer {
 
 			bindings = <
-			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
-			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
-			&kp &kp &kp &kp &kp &kp &kp &kp 		&kp &kp &kp &kp &kp &kp &kp &kp 
-				&kp &kp &kp &kp &kp &kp			&kp &kp &kp &kp &kp &kp 
+			&kp LC(Y) &kp LC(A) &kp HOME &kp UP &kp END &kp LC(X) 				&kp GRAVE &kp N7 &kp N8 &kp N9 &kp MINUS &kp EQUAL
+			&kp LGUI &kp DEL &kp LEFT &kp BSPC &kp RIGHT &kp LC(V) 				&kp N0 &kp N4 &kp N5 &kp N6 &kp LEFT_BRACKET &kp RIGHT_BRACKET 
+			&kp F2 &kp K_CONTEXT_MENU &kp ENTER &kp DOWN &kp TAB &kp LC(C) &none &none 		&none &none &none &kp N1 &kp N2 &kp N3 &kp FSLH &kp NON_US_HASH  
+				&bootloader &reset &none &none &none			&mt RALT ESC &mt LSHFT N0 &kp LA(SPACE) &bootloader &reset 
 			
 			>;
 
@@ -56,7 +56,7 @@
 			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
 			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
 			&kp &kp &kp &kp &kp &kp &kp &kp 		&kp &kp &kp &kp &kp &kp &kp &kp 
-				&kp &kp &kp &kp &kp &kp			&kp &kp &kp &kp &kp &kp 
+				    &kp &kp &kp &kp &kp	        	&kp &kp &kp &kp &kp 
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -72,7 +72,7 @@
 			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
 			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
 			&kp &kp &kp &kp &kp &kp &kp &kp 		&kp &kp &kp &kp &kp &kp &kp &kp 
-				&kp &kp &kp &kp &kp &kp			&kp &kp &kp &kp &kp &kp 
+				    &kp &kp &kp &kp &kp	        	&kp &kp &kp &kp &kp 
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -88,7 +88,7 @@
 			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
 			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
 			&kp &kp &kp &kp &kp &kp &kp &kp 		&kp &kp &kp &kp &kp &kp &kp &kp 
-				&kp &kp &kp &kp &kp &kp			&kp &kp &kp &kp &kp &kp 
+				    &kp &kp &kp &kp &kp	        	&kp &kp &kp &kp &kp 
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
