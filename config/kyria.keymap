@@ -86,8 +86,8 @@
 
 			bindings = <
 			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
-			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
-			&kp &kp &kp &kp &kp &kp &kp &kp 		&kp &kp &kp &kp &kp &kp &kp &kp 
+			&kp &kp LA(F4) &kp LC(W) &kp LC(TAB) &kp LC(LS(TAB) &kp 				&kp &kp &kp &kp &kp &kp 
+			&kp &kp LALT &kp SPACE &kp LS(TAB) &kp TAB &kp &kp &kp 		&kp &kp &kp &kp &kp &kp &kp &kp 
 				    &kp &kp &kp &kp &kp	        	&kp &kp &kp &kp &kp 
 			>;
 
