@@ -36,10 +36,11 @@
 		navnum_layer {
 
 			bindings = <
-	&none &none &none &none &none &none				    &none &none &none &none &none &none 
-	&none &none &none &none &none &none				    &none &none &none &none &none &none 
-	&none &none &none &none &none &none &none &none		&none &none &none &none &none &none &none &none
-	&none &none &none &none &none &none &none &none		&none &none &none &none &none &none &none &none 
+			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
+			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
+			&kp &kp &kp &kp &kp &kp &kp &kp 		&kp &kp &kp &kp &kp &kp &kp &kp 
+				&kp &kp &kp &kp &kp &kp			&kp &kp &kp &kp &kp &kp 
+			
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -52,10 +53,10 @@
 		sym_layer {
 
 			bindings = <
-	&none &none &none &none &none &none				    &none &none &none &none &none &none 
-	&none &none &none &none &none &none				    &none &none &none &none &none &none 
-	&none &none &none &none &none &none &none &none		&none &none &none &none &none &none &none &none
-	&none &none &none &none &none &none &none &none		&none &none &none &none &none &none &none &none 
+			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
+			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
+			&kp &kp &kp &kp &kp &kp &kp &kp 		&kp &kp &kp &kp &kp &kp &kp &kp 
+				&kp &kp &kp &kp &kp &kp			&kp &kp &kp &kp &kp &kp 
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -68,10 +69,10 @@
 		mediafn_layer {
 
 			bindings = <
-	&none &none &none &none &none &none				    &none &none &none &none &none &none 
-	&none &none &none &none &none &none				    &none &none &none &none &none &none 
-	&none &none &none &none &none &none &none &none		&none &none &none &none &none &none &none &none
-	&none &none &none &none &none &none &none &none		&none &none &none &none &none &none &none &none 
+			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
+			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
+			&kp &kp &kp &kp &kp &kp &kp &kp 		&kp &kp &kp &kp &kp &kp &kp &kp 
+				&kp &kp &kp &kp &kp &kp			&kp &kp &kp &kp &kp &kp 
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -84,10 +85,10 @@
 		app_layer {
 
 			bindings = <
-		&none &none &none &none &none &none				    &none &none &none &none &none &none 
-	&none &none &none &none &none &none				    &none &none &none &none &none &none 
-	&none &none &none &none &none &none &none &none		&none &none &none &none &none &none &none &none
-	&none &none &none &none &none &none &none &none		&none &none &none &none &none &none &none &none 
+			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
+			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
+			&kp &kp &kp &kp &kp &kp &kp &kp 		&kp &kp &kp &kp &kp &kp &kp &kp 
+				&kp &kp &kp &kp &kp &kp			&kp &kp &kp &kp &kp &kp 
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
