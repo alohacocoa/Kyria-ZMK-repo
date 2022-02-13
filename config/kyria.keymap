@@ -89,10 +89,10 @@
 		mediafn_layer {
 
 			bindings = <
-			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
-			&kp &kp &kp &kp &kp &kp 				&kp &kp &kp &kp &kp &kp 
-			&kp &kp &kp &kp &kp &kp &kp &kp 		&kp &kp &kp &kp &kp &kp &kp &kp 
-				    &kp &kp &kp &kp &kp	        	&kp &kp &kp &kp &kp 
+			&none &none &none &none &none &none				                    &none &kp F7 &kp F8 &kp F9 &kp F12 &none 
+			&kp F5 &kp F6 &kp C_VOL_DN &none &kp C_VOL_UP &none 				    &none &kp F4 &kp F5 &kp F6 &kp F11 &none 
+			&none &none &none &none &kp C_MUTE &none &none &none                    &none &none &none &kp F1 &kp F2 &kp F3 &kp F10 &none 
+					&none &none &kp C_PREV &kp C_PLAY_PAUSE &kp C_NEXT  &kp LALT &kp LSHFT &kp LCTRL &none &none 
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
