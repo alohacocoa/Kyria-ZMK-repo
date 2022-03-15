@@ -60,7 +60,7 @@
 
 			bindings = <
 			&none &kp LG(TAB) &kp DEL &kp LEFT &kp RIGHT &kp LC(W) 				&none &none &none &none &none &none 
-			&kp LA(F4) &kp LC(W) &kp ENTER &kp LC(LS(TAB)) &kp LC(TAB) &kp LC(LG(RIGHT) 				&none &none &none &none &none &none
+			&kp LA(F4) &kp LC(W) &kp ENTER &kp LC(LS(TAB)) &kp LC(TAB) &kp LC(LG(RIGHT)) 				&none &none &none &none &none &none
 			&none &kp LALT &kp DEL &kp LS(TAB) &kp TAB  &kp LC(LG(LEFT)) &none &none 		&none &none &none &none &none &none &none &none 
 				    &none &none &none &none &none &none &none &none &none &none 
 			>;
